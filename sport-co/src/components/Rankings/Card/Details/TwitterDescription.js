@@ -1,3 +1,5 @@
+import './TwitterDescription.css'
+
 const TwitterDescription = ({ twitter_description }) => {
     return (
         <div className="twitter_description">
