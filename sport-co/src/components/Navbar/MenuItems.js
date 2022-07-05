@@ -6,7 +6,7 @@ export const MenuItems = [
     },
     {
         title: 'Rankings',
-        url: '/SportCoWebsite/Available',
+        url: '/SportCoWebsite/#/Available',
         cName: 'nav-links'
     },
     {

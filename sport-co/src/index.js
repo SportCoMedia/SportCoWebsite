@@ -6,6 +6,6 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div> <App />
-    <h1>test</h1></div>
+    <h1></h1></div>
 )
   

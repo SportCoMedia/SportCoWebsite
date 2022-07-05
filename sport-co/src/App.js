@@ -2,18 +2,18 @@ import './App.css';
 import Available from './components/Rankings/Available.js';
 import React, { Component } from 'react';
 import Home from "./components/Home.js";
-import { BrowserRouter, Route,Routes} from 'react-router-dom';
+import { HashRouter, Route,Routes} from 'react-router-dom';
 class App extends Component {
   render() {
     return (      
-       <BrowserRouter>
+       <HashRouter>
         <div>
             <Routes>
-             <Route path="/SportCoWebsite" element={<Home />}></Route>
-             <Route path="/SportCoWebsite/Available" element={<Available />}></Route>
+             <Route path="/" element={<Home />}></Route>
+             <Route path="/Available" element={<Available />}></Route>
            </Routes>
         </div> 
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
