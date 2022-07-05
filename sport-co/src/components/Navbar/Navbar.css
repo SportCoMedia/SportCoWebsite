@@ -54,6 +54,11 @@
     display: none
 }
 
+.fa-circle-user{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 0.5rem;
+}
 @media screen and (max-width: 960px){
     .NavbarItems{
         position: relative;
@@ -134,5 +139,7 @@
     Button {
         display: none
     }
-
+    .fa-circle-user {
+        display: none
+    }
 }

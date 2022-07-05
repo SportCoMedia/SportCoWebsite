@@ -27,6 +27,7 @@ class Navbar extends Component {
                     })}
                 </ul>
                 <Button> Sign up </Button>
+                <i class='fa-solid fa-circle-user'></i>
             </nav>
         )
     }
