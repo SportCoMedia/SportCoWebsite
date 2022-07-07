@@ -26,8 +26,8 @@ const user = {
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 }
 const navigation = [
-  { name: 'Homes', href: '#', current: true },
-  { name: 'Players', href: '#', current: false },
+  { name: 'Home', href: '#', current: true },
+  { name: 'Players', href: '#/Available', current: false },
   { name: 'Coaches', href: '#', current: false },
   { name: 'Universities', href: '#', current: false },
 ]
@@ -41,7 +41,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function NavBar(PageName) {
   return (
     <Disclosure as="header" className="bg-gray-800">
       {({ open }) => (
@@ -122,7 +122,7 @@ export default function Example() {
                   key={item.name}
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.name == PageName ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'rounded-md py-2 px-3 inline-flex items-center text-sm font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
