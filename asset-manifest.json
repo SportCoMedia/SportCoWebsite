@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SportCoWebsite/static/css/main.2491225c.css",
-    "main.js": "/SportCoWebsite/static/js/main.1c2a5514.js",
+    "main.css": "/SportCoWebsite/static/css/main.78b78cca.css",
+    "main.js": "/SportCoWebsite/static/js/main.377afaba.js",
     "index.html": "/SportCoWebsite/index.html",
-    "main.2491225c.css.map": "/SportCoWebsite/static/css/main.2491225c.css.map",
-    "main.1c2a5514.js.map": "/SportCoWebsite/static/js/main.1c2a5514.js.map"
+    "main.78b78cca.css.map": "/SportCoWebsite/static/css/main.78b78cca.css.map",
+    "main.377afaba.js.map": "/SportCoWebsite/static/js/main.377afaba.js.map"
   },
   "entrypoints": [
-    "static/css/main.2491225c.css",
-    "static/js/main.1c2a5514.js"
+    "static/css/main.78b78cca.css",
+    "static/js/main.377afaba.js"
   ]
 }
