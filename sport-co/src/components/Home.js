@@ -1,13 +1,17 @@
 
-import  Navbar  from "./Navbar/Navbar.js"
-
+import Example from "./Navbar/Navbar.js"
+import Stats from "./HomeSreen"
 
 function Home(){
     return(
         <div>
-        
-        < Navbar />
-        <h1>WIP</h1>
+        {Example()}
+        <dl className="mt-5 grid grid-cols-2 sm:grid-cols-2">
+        {Stats()}
+        {Stats()}
+        </dl>
+
+
         </div>
     )
 }
