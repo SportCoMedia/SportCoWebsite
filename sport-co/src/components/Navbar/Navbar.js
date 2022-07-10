@@ -59,7 +59,7 @@ export default function NavBar(PageName) {
               </div>
               <div className="relative z-10 flex items-center lg:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="lg:hidden rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -122,7 +122,7 @@ export default function NavBar(PageName) {
                   key={item.name}
                   href={item.href}
                   className={classNames(
-                    item.name == PageName ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.name === PageName ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'rounded-md py-2 px-3 inline-flex items-center text-sm font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
@@ -131,7 +131,7 @@ export default function NavBar(PageName) {
                 </a>
               ))}
               {/*search bar*/}
-              <div className="flex-1 flex justify-center px-2 lg:ml-6 lg:justify-end">
+              <div className="flex-1 flex justify-center px-2 lg:ml-6 lg:justify-end lg:justify-end lg:justify-end" aria-label="Global">
                   <div className="w-full sm:max-w-xs">
                     <label htmlFor="search" className="sr-only">
                       Search
@@ -154,7 +154,7 @@ export default function NavBar(PageName) {
           </div>
 
           <Disclosure.Panel as="nav" className="lg:hidden" aria-label="Global">
-            <div className="pt-2 pb-3 px-2 space-y-1">
+            <div className="pt-2 pb-3 px-2 space-y-1 lg:hidden">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
