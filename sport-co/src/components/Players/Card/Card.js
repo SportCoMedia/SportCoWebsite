@@ -51,7 +51,7 @@ export default function Card() {
                     </div>
                     <div class="bg-white grid grid-cols-4 text-center px-1 py-2">
                         <p class="text-base text-black leading-4">JC/CC</p>
-                        <p class="text-base text-black leading-4"></p>
+                        <p class="text-base text-black leading-4">GY</p>
                         <p class="text-base text-black leading-4">HA</p>
                         <p class="text-base text-black leading-4">EI</p>
                     </div>
