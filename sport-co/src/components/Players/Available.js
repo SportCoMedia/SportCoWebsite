@@ -6,9 +6,5 @@ export default function Available() {
         {NavBar("Players")}
         {Card()}
         </div>
-
-
-
-        
     )
   }
