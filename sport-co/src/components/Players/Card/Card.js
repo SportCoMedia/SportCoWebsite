@@ -35,7 +35,7 @@ export default function Card() {
                         <p class="text-base text-white leading-4 font-semibold" x-text="item.d1_count">{user.d1_count}</p>
                         <p class="text-base text-white leading-4 font-semibold" x-text="item.d2_count">{user.d2_count}</p>
                         <p class="text-base text-white leading-4 font-semibold" x-text="item.d3_count">{user.d3_count}</p>
-                        <p class="text-base text-white leading-4 font-semibold" x-text="item.cccaa_count">{user.ccaa_count}</p>
+                        <p class="text-base text-white leading-4 font-semibold" x-text="item.cccaa_count">{user.cccaa_count}</p>
                     </div>
                     <div class="bg-white grid grid-cols-4 text-center px-1 py-2">
                         <p class="text-base text-black leading-4">D1</p>
